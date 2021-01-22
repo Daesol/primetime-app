@@ -11,10 +11,16 @@
 4. - (Optional) Downloaded react-responsive-picture for mobile responsive image
 5. start react. Type "npm start"
 
+# Loading backend and react veiw
+1. first open up new terminal on primetime-app
+2. npm start (backend)
+3. open up new terminal and cd to frontend
+4. npm start (React webview)
+
 # Parts that can be modified for better design
 1:31:00 --> ProductScreen
 
-10. Load Products From backend
+10. Load Products From backend (9, 10 must review backend server request)
     1. edit HomeScreen.js
     2. define productsm loading and error.
     3. create useEffect
@@ -25,3 +31,4 @@
     8. create Loading Component
     9. create Message Box Componenet
     10. use them in HomeScreen
+

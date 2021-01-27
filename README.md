@@ -13,9 +13,25 @@
 
 # Loading backend and react veiw
 1. first open up new terminal on primetime-app
-2. npm start (backend)
-3. open up new terminal and cd to frontend
-4. npm start (React webview)
+2. npm install 
+3. npm start (this is for backend)
+4. open up new terminal and cd to frontend
+    # React-Redux && Thunk
+    1. cd frontend
+    2. npm install redux react-redux
+    3. npm install react-redux
+    3. install redux devtool from chrome app
+
+    # Chnage proxy
+    1. open /frontend/src/package.json
+    2. cd frontend
+    3. npm start
+    4. Once you run, your terminal will show "On Your Network: http://xxx.xxx.x.xxx:3000"
+    5. Copy the ip (not the 3000)
+    6. Paste it to "proxy" in package.json 
+5. npm install
+6. npm start (React webview)
+
 
 # Parts that can be modified for better design
 1:31:00 --> ProductScreen
@@ -32,3 +48,25 @@
     9. create Message Box Componenet
     10. use them in HomeScreen
 
+11. Linting 
+Skipped linting
+
+12. Add Redux to Home Screen
+    1. npm install redux react-redux
+    2. create store.js
+    3. initState = {products: []}
+    4. reducer = (state, action) => switch LOAD_PRODUCTS: {products: action.payload}
+    5. export default createStore(reducer, initState)
+    6. Edidt HomeScreen.js
+    7. shopName = useSelector(state=>state.products)
+    8. const dispatch = useDispatch()
+    9. useEffect(()=>dispatch({type: LOAD_PRODUCTS, payload: data}))
+    10. Add store to index.js
+
+13. Add Redux to Product Screen
+    1. Create product details constants, actions and reducers
+    2. Add reducer to store.js
+    3. use action in ProductScreen.js
+    4. add /api/produc/:id to backend api
+
+    --> for Network XRH, PRODUCT_DETAILS_SUCCESS & PRODUCT_DETAILS_FAIL are not changing it to false.

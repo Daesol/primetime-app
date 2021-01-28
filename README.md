@@ -70,3 +70,7 @@ Skipped linting
     4. add /api/produc/:id to backend api
 
     --> for Network XRH, PRODUCT_DETAILS_SUCCESS & PRODUCT_DETAILS_FAIL are not changing it to false.
+
+14. Handle Add to Cart Button
+    1. Handle Add to Cart in ProductScreen.js
+    2. create CartScreen.js

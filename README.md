@@ -80,3 +80,10 @@ Skipped linting
     2. add reducer to store.js
     3. use action in CartScreen.js
     4. render cartItems.length
+
+16. Build Cart Screen
+    1. Create 2 columns ffor cart items and cart action
+    2. cartItems.length === 0 ? cart is empty
+    3. show item image, name, qty and price
+    4. proceed to checkout button
+    5. implement remove from cart action

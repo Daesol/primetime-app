@@ -87,3 +87,8 @@ Skipped linting
     3. show item image, name, qty and price
     4. proceed to checkout button
     5. implement remove from cart action
+
+17. Implement Remove From Cart Action
+    1. Create removeFromCart Constants, actions and reducers
+    2. Add reducer to store.js
+    3. use action in CartScreen.js

@@ -5,7 +5,10 @@
   "description": "1. Node.js\r 2. Mongodb Community & Compass (mongodb.com/try/download/community)\r 3. postman.com",
   "main": "index.js",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "mongoose": "^5.11.14",
     "react": "^17.0.1",
     "react-redux": "^7.2.2",
     "react-router-dom": "^5.2.0",

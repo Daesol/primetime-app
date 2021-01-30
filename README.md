@@ -29,8 +29,21 @@
     4. Once you run, your terminal will show "On Your Network: http://xxx.xxx.x.xxx:3000"
     5. Copy the ip (not the 3000)
     6. Paste it to "proxy" in package.json 
+
+    # Start Mongodb on terminal
+    1. open Mac Terminal
+    2. brew services list
+        1. will show that mongodb stopped
+    3. brew services start mongodb-community
+    4. mongo <-- start mongo
 5. npm install
 6. npm start (React webview)
+
+7. npm install mongoose
+8. Also download https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
+9. Start mongodb
+9. npm install bcryptjs
+10. npm install express-async-handler
 
 
 # Parts that can be modified for better design
@@ -92,3 +105,16 @@ Skipped linting
     1. Create removeFromCart Constants, actions and reducers
     2. Add reducer to store.js
     3. use action in CartScreen.js
+
+18. Connect to MongoDB
+    1. npm install mongoose
+    2. connect to mongodb - installed mongodb https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
+    3. create config.js
+    4. npm install dotenv
+    5. export MONGODB_URL
+    6. create models/userModel.js
+    7. create userSchema and userModel
+    8. create models/productModel.js
+    9. create productSchema and productModel
+    10. create userRoute
+    11. Seed sample data

@@ -136,3 +136,9 @@ Skipped linting
     5. install dotenv
     6. return token and data
     7. test it using postman
+
+21. Design Signin Screen
+    1. create SigninScreen
+    2. redner email and password fields
+    3. create signin constants, actions and reducers
+    4. update Header based on user login

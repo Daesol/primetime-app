@@ -118,3 +118,10 @@ Skipped linting
     9. create productSchema and productModel
     10. create userRoute
     11. Seed sample data
+
+19. Craete sample products in MongoDB
+    1. create models/productModels.js
+    2. create productSchema and productModel
+    3. create producRoute
+    4. Seed sample data
+    

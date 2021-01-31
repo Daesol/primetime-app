@@ -142,3 +142,8 @@ Skipped linting
     2. redner email and password fields
     3. create signin constants, actions and reducers
     4. update Header based on user login
+
+22. Implement Signin Action
+    1. create signin constants, actions, reducers
+    2. add reducer to store.js
+    3. use action in SigninScreen.js

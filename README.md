@@ -147,3 +147,21 @@ Skipped linting
     1. create signin constants, actions, reducers
     2. add reducer to store.js
     3. use action in SigninScreen.js
+
+23. Create Registar Screen and Backend API
+    1. Create API for /api/users/register
+    2. insert new user to database
+    3. return user info and token
+    4. create RegisterScreen
+    5. Add fields
+    6. Style fields
+    7. Add screen to App.js
+
+24. Create Shipping Screen
+    1. create CheckoutSteps.js component
+    2. create shipping fields
+    3. implement shipping constant, actions and reducers
+
+25. Create Payment Screen
+    1. create payment fields
+    2. implement shipping constant, actions and reducers

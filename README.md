@@ -27,8 +27,8 @@
     2. cd frontend
     3. npm start
     4. Once you run, your terminal will show "On Your Network: http://xxx.xxx.x.xxx:3000"
-        1. 192.168.2.42
-        2. 192.168.2.27
+        1. 192.168.2.42 House
+        2. 192.168.2.27 Wandee
     5. Copy the ip (not the 3000)
     6. Paste it to "proxy" in package.json 
 

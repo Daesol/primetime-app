@@ -27,6 +27,8 @@
     2. cd frontend
     3. npm start
     4. Once you run, your terminal will show "On Your Network: http://xxx.xxx.x.xxx:3000"
+        1. 192.168.2.42
+        2. 192.168.2.27
     5. Copy the ip (not the 3000)
     6. Paste it to "proxy" in package.json 
 
@@ -47,6 +49,14 @@
 
 11. npm install jsonwebtoken
 12. npm install dotenv <-- in the main folder
+
+# Using PayPal
+1. Updating Live Client ID
+    1. Submit PayPal application to upgrade to live Client ID
+    2. Once approved, update .env PAYPAL_CLIENT_ID to live client id 
+2. installing react paypal
+    1. cd frontend
+    2. npm install react-paypal-button-v2
 
 
 # Parts that can be modified for better design
@@ -187,3 +197,11 @@ Skipped linting
     4. load data with useSelector
     5. show data like place order screen
     6. create order details constant, action and reducer
+
+30. Add PayPal Button
+    1. get client id from paypal
+    2. set it in .env file
+    3. create route from /api/paypal/clientId
+    4. create getPaypalClientId in api.js
+    5. add paypal checkout script in orderScreen.js
+    6. show paypal button

@@ -205,3 +205,10 @@ Skipped linting
     4. create getPaypalClientId in api.js
     5. add paypal checkout script in orderScreen.js
     6. show paypal button
+
+32. Display Orders History
+    1. create customer orders api
+    2. create api for getMyOrders
+    3. show orders in profile screen
+    4. style orders
+    
